@@ -66,21 +66,10 @@
                 <h3 class="section-subheading text-muted">Mô tả nội dung.</h3>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
-                    <img style="border-radius: 50%;" src="https://via.placeholder.com/150" alt="">
-                    <h4 class="my-3">Tiêu đề 1</h4>
-                    <p class="text-muted">Nội dung 1</p>
-                </div>
-                <div class="col-md-4">
-                    <img style="border-radius: 50%;" src="https://via.placeholder.com/150" alt="">
-                    <h4 class="my-3">Tiêu đề 3</h4>
-                    <p class="text-muted">Nội dung 3</p>
-                </div>
-                <div class="col-md-4">
-                    <img style="border-radius: 50%;" src="https://via.placeholder.com/150" alt="">
-                    <h4 class="my-3">Tiêu đề 3</h4>
-                    <p class="text-muted">Nội dung 3</p>
-                </div>
+                <iframe width="560" height="500" src="https://www.youtube.com/embed/faGWNS6-eOQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -102,7 +91,7 @@
                             <img class="img-fluid" src="https://via.placeholder.com/355x265" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Sản phẩm 1</div>
+                            <div class="portfolio-caption-heading">IFPD UT</div>
                             <div class="portfolio-caption-subheading text-muted">Mô tả nội dung 1</div>
                         </div>
                     </div>
@@ -117,8 +106,8 @@
                             <img class="img-fluid" src="https://via.placeholder.com/355x265" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Sản phẩm 2</div>
-                            <div class="portfolio-caption-subheading text-muted">Mô tả nội dung 1</div>
+                            <div class="portfolio-caption-heading">IFPD UX</div>
+                            <div class="portfolio-caption-subheading text-muted">Mô tả nội dung 2</div>
                         </div>
                     </div>
                 </div>
@@ -132,7 +121,7 @@
                             <img class="img-fluid" src="https://via.placeholder.com/355x265" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Tiêu đề 3</div>
+                            <div class="portfolio-caption-heading">Màn LED siêu cao cấp</div>
                             <div class="portfolio-caption-subheading text-muted">Mô tả nội dung 3</div>
                         </div>
                     </div>
@@ -311,8 +300,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Sản phẩm 1</h2>
-                                <p class="item-intro text-muted">Tiêu đề sản phẩm 1.</p>
+                                <h2 class="text-uppercase">IFPD UT</h2>
+                                <p class="item-intro text-muted">Tiêu đề IFPD UT.</p>
                                 <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/350"
                                     alt="..." />
                                 <p>Nội dung hình ảnh 1</p>
@@ -340,8 +329,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Sản phẩm 2</h2>
-                                <p class="item-intro text-muted">Tiêu đề sản phẩm 2.</p>
+                                <h2 class="text-uppercase">IFPD UX</h2>
+                                <p class="item-intro text-muted">Tiêu đề IFPD UX.</p>
                                 <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/350"
                                     alt="..." />
                                 <p>Nội dung hình ảnh 2</p>
@@ -369,9 +358,10 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Sản phẩm 3</h2>
-                                <p class="item-intro text-muted">Tiêu đề sản phẩm 3.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <h2 class="text-uppercase">Màn LED siêu cao cấp</h2>
+                                <p class="item-intro text-muted">Tiêu đề Màn LED siêu cao cấp.</p>
+                                <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/350"
+                                    alt="..." />
                                 <p>Nội dung hình ảnh 3</p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -391,6 +381,37 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "109381471765531");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>
