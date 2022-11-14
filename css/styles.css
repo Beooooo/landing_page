@@ -3269,8 +3269,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #004c97;
+  border-color: #004c97;
 }
 
 .btn-primary:hover {
@@ -12387,15 +12387,9 @@ p {
 }
 
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  margin-top: 90px;
+  background: #8080800f;
+  padding: 40px 0px;
 }
 
 header.masthead .masthead-subheading {
@@ -12415,11 +12409,6 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
@@ -12747,8 +12736,7 @@ header.masthead .masthead-heading {
 }
 
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  width: 100% !important;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 
@@ -12831,4 +12819,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.title-banner {
+  font-size: 30px;
+  padding: 30px 0px;
 }
